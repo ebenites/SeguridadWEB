@@ -19,13 +19,13 @@
                     <legend>Editar Usuario</legend>
                     
                     <label>Usuario</label>
-                    <input type="text" name="usuario" size="20" maxlength="40" required="" placeholder="Ingrese usuario" value="<c:out value="${usuario.usuario}"/>"/><br/>
+                    <input type="text" name="usuario" size="20" maxlength="40" required="required" placeholder="Ingrese usuario" value="<c:out value="${usuario.usuario}"/>"/><br/>
                     
                     <label>Clave</label>
                     <input type="password" name="clave" size="20" maxlength="40" placeholder="Ingrese clave" value=""/><br/>
                     
                     <label>Nombres</label>
-                    <input type="text" name="nombres" size="40" maxlength="100" required="" placeholder="Ingrese nombres" value="<c:out value="${usuario.nombres}"/>"/><br/>
+                    <input type="text" name="nombres" size="40" maxlength="100" required="required" placeholder="Ingrese nombres" value="<c:out value="${usuario.nombres}"/>"/><br/>
                     
                     <label>Correo</label>
                     <input type="email" name="correo" size="40" maxlength="100" placeholder="Ingrese correo"  value="<c:out value="${usuario.correo}"/>"/><br/>

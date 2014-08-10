@@ -1,7 +1,5 @@
 package edu.tecsup.seguridad.app;
 
-import java.util.List;
-
 import edu.tecsup.seguridad.exception.ServiceException;
 import edu.tecsup.seguridad.model.Usuario;
 import edu.tecsup.seguridad.service.UsuarioService;

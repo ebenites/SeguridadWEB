@@ -18,13 +18,13 @@
                     <legend>Registrar Usuario</legend>
                     
                     <label>Usuario</label>
-                    <input type="text" name="usuario" size="20" maxlength="40" required="" placeholder="Ingrese usuario"/><br/>
+                    <input type="text" name="usuario" size="20" maxlength="40" required="required" placeholder="Ingrese usuario"/><br/>
                     
                     <label>Clave</label>
                     <input type="password" name="clave" size="20" maxlength="40" placeholder="Ingrese clave"/><br/>
                     
                     <label>Nombres</label>
-                    <input type="text" name="nombres" size="40" maxlength="100" required="" placeholder="Ingrese nombres"/><br/>
+                    <input type="text" name="nombres" size="40" maxlength="100" required="required" placeholder="Ingrese nombres"/><br/>
                     
                     <label>Correo</label>
                     <input type="email" name="correo" size="40" maxlength="100" placeholder="Ingrese correo"/><br/>
