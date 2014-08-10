@@ -1,0 +1,557 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Fin Reset CSS*/
+
+/* CKEditor unreset */
+/**
+ * Start Vanilla CSS 1.0.2 : http://noscope.com/vanilla-css/
+ */ 
+.ckviewer {
+	font: 9pt/1.5em sans-serif;
+}
+.ckviewer pre, .ckviewer code, .ckviewer tt {
+	font: 1em/1.5em 'Andale Mono', 'Lucida Console', monospace;
+}
+.ckviewer b, .ckviewer strong {
+	font-weight: bold;
+}
+.ckviewer h1, .ckviewer h2, .ckviewer h3, .ckviewer h4, .ckviewer h5, .ckviewer h6 {
+	font-family: sans-serif, Arial, Verdana, 'Trebuchet MS';
+	margin: 20px 0px;
+	font-weight: normal;
+}
+.ckviewer h1 {
+	font-size: 2em;
+}
+.ckviewer h2 {
+	font-size: 1.5em;
+}
+.ckviewer h3 {
+	font-size: 1.3em;
+}
+.ckviewer h4 {
+	font-size: 1em;
+}
+.ckviewer h5 {
+	font-size: 0.8em;
+}
+.ckviewer h6 {
+	font-size: 0.7em;
+}
+.ckviewer em, .ckviewer i, .ckviewer dfn {
+	font-style: italic;
+}
+.ckviewer dfn {
+	font-weight:bold;
+}
+.ckviewer p, .ckviewer code, .ckviewer pre, .ckviewer kbd {
+	margin:0 0 1.5em 0;
+}
+.ckviewer blockquote {
+	margin:0 1.5em 1.5em 1.5em;
+}
+.ckviewer cite {
+	font-style: italic;
+}
+.ckviewer li ul, .ckviewer li ol {
+	margin:0 1.5em;
+}
+.ckviewer ul, .ckviewer ol {
+	margin:0 1.5em 1.5em 1.5em;
+}
+.ckviewer ul {
+	list-style-type:disc;
+}
+.ckviewer ol {
+	list-style-type:decimal;
+}
+.ckviewer ol .ckviewer ol {
+	list-style: upper-alpha;
+}
+.ckviewer ol ol ol {
+	list-style: lower-roman;
+}
+.ckviewer ol ol ol ol {
+	list-style: lower-alpha;
+}
+.ckviewer dl {
+	margin:0 0 1.5em 0;
+}
+.ckviewer dl dt {
+	font-weight:bold;
+}
+.ckviewer dd {
+	margin-left:1.5em;
+}
+.ckviewer table {
+	margin-bottom:1.4em;
+	width:100%;
+}
+.ckviewer th {
+	font-weight:bold;
+}
+.ckviewer th, .ckviewer td, .ckviewer caption {
+	padding:4px 10px 4px 5px;
+}
+.ckviewer th, .ckviewer td {
+	border-bottom: 1px solid grey;
+	border-right: 1px solid grey;
+}
+.ckviewer tr:FIRST-CHILD > th, .ckviewer tr:FIRST-CHILD > td {
+	border-top: 1px solid grey;
+}
+.ckviewer tr > th:FIRST-CHILD, .ckviewer tr > td:FIRST-CHILD {
+	border-left: 1px solid grey;
+}
+.ckviewer tfoot {
+	font-style:italic;
+}
+.ckviewer sup, .ckviewer sub {
+	line-height:0;
+}
+.ckviewer abbr, .ckviewer acronym {
+	border-bottom: 1px dotted;
+}
+.ckviewer address {
+	margin:0 0 1.5em;
+	font-style:italic;
+}
+.ckviewer del {
+	text-decoration: line-through;
+}
+.ckviewer pre {
+	margin:1.5em 0;
+	white-space:pre;
+}
+.ckviewer img.centered, .ckviewer .aligncenter, .ckviewer div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ckviewer img.alignright {
+	display: inline;
+}
+.ckviewer img.alignleft {
+	display: inline;
+}
+.ckviewer .alignright {
+	float: right;
+	margin-left: 10px;
+}
+.ckviewer .alignleft {
+	float: left;
+	margin-right: 10px;
+}
+.ckviewer img {
+	max-width: 100%;
+}
+.ckviewer * html .clearfix {
+    height: 1%;
+}
+.ckviewer * + html .clearfix {
+	display: inline-block;
+}
+.ckviewer .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.ckviewer * html .group {
+    height: 1%;
+}
+.ckviewer * + html .group {
+	display: inline-block;
+}
+.ckviewer .group:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.ckviewer textarea{
+	width: inherit !important;
+}
+.ckviewer input[type="text"], .ckviewer input[type="password"], textarea{
+	border: 1px solid grey !important;
+	background: white !important;
+	filter: inherit !important;
+	
+	-moz-box-shadow: inherit !important;
+	-webkit-box-shadow: inherit !important;
+	box-shadow: inherit !important;
+
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+	
+	height: inherit !important;
+	padding: 3px !important;
+	margin: 2px !important;
+	font-size: 13px !important;
+	letter-spacing: normal !important;
+	line-height: normal !important;
+}
+
+.ckviewer input[type="text"]:hover, .ckviewer input[type="password"]:hover, textarea:hover{
+	background: white !important;
+}
+/**
+* End Vanilla CSS
+*/
+.ckviewer{
+    margin-left: 10px;
+}
+
+
+/*
+ * Campus Layout
+ */
+
+body{
+    font-family: arial;
+    font-size: 12px;
+}
+
+/* style.css by ebenites - Marzo 2014*/
+/* seleccion por id */
+#header{
+    background: #6db3f2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6db3f2), color-stop(50%,#54a3ee), color-stop(51%,#3690f0), color-stop(100%,#1e69de)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+
+	-webkit-box-shadow: #666 0px 4px 3px -3px; /*color x y blur*/
+    -moz-box-shadow: #666 0px 4px 3px -3px;
+    box-shadow: #666 0px 4px 5px -3px;
+
+    /*height: 100px;*/
+    color: white;
+    padding: 20px;
+}
+
+#content{
+    padding: 10px;
+    min-height: 200px;
+    margin-bottom: 40px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    /*background-color: #333;*/
+    background: #606c88; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwNmM4OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzZjRjNmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #606c88 0%, #3f4c6b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#606c88), color-stop(100%,#3f4c6b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #606c88 0%,#3f4c6b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-8 */
+
+    -webkit-box-shadow: #666 0px -4px 3px -3px; /*color x y blur*/
+    -moz-box-shadow: #666 0px -4px 3px -3px;
+    box-shadow: #666 0px -4px 5px -3px;
+    
+    color: white; /* color de texto*/
+    line-height: 40px;
+    text-align: center; /*alineamiento horizontal*/
+    font-weight: bold; /* texto en negrita */
+    font-size: 13px;
+}
+
+#menu ul{
+	width: 100%;
+	margin: 0;
+	padding: 4px 0 0 0;
+	list-style: none;  
+        overflow: auto;
+	
+	border-top: 1px solid #555555;
+	
+	background: #3b3f41; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI5JSIgc3RvcC1jb2xvcj0iIzNiM2Y0MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iIzQ4NGM0ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc4JSIgc3RvcC1jb2xvcj0iIzRiNGQ0ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #3b3f41 9%, #484c4d 55%, #4b4d4d 78%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,#3b3f41), color-stop(55%,#484c4d), color-stop(78%,#4b4d4d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3b3f41 9%,#484c4d 55%,#4b4d4d 78%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3b3f41 9%,#484c4d 55%,#4b4d4d 78%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3b3f41 9%,#484c4d 55%,#4b4d4d 78%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3b3f41 9%,#484c4d 55%,#4b4d4d 78%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3f41', endColorstr='#4b4d4d',GradientType=0 ); /* IE6-8 */
+	
+	-webkit-box-shadow: #666 0px 5px 3px -3px; /*color x y blur*/
+	-moz-box-shadow: #666 0px 5px 3px -3px;
+	box-shadow: #666 0px 5px 3px -3px;
+}
+
+#menu li{
+	float: left;
+	padding: 0 0 4px 0;
+	position: relative;
+}
+
+#menu a{
+	float: left;
+	height: 25px;
+	padding: 0 12px;
+	color: #ccc;
+	text-transform: uppercase;
+	font: bold 12px/25px Arial, Helvetica;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #333;
+}
+
+#menu li:hover a{
+	color: #fafafa;
+}
+
+/* Table */
+table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+
+/* Form */
+form.ligthform{
+    margin-bottom: 10px;
+}
+form.ligthform fieldset{
+    border: 1px solid #666666;
+    padding: 8px;
+}
+form.ligthform legend{
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+form.ligthform label{
+    font-weight: bold;
+    line-height: 30px;
+    margin-right: 5px;
+}
+form.ligthform input{
+    margin-right: 15px;
+}
+form.ligthform input[type='text'], form.ligthform input[type='password'], form.ligthform input[type='email'], form.ligthform input[type='date'], form.ligthform input[type='nombre'], form.ligthform input[type='tel'], form.ligthform input[type='url'], form.ligthform textarea, form.ligthform select{
+    padding: 5px 8px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+form.ligthform input[type='text']:focus, form.ligthform input[type='password']:focus, form.ligthform textarea:focus, form.ligthform select:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+form.ligthform input[disabled], form.ligthform input[readonly], form.ligthform fieldset[disabled] input{
+    cursor: not-allowed;
+    background-color: #eee;
+    opacity: 1;
+}
+form.ligthform input[type='submit'], form.ligthform input[type='reset'], form.ligthform input[type='button'], form.ligthform button, .button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+    background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+    background-color:#007dc1;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #124d77;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:13px;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+}
+form.ligthform input[type='submit']:hover, form.ligthform input[type='reset']:hover, form.ligthform input[type='button']:hover, form.ligthform button:hover, .button:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+    background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+    background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+    background-color:#0061a7;
+}
+form.ligthform input[type='submit']:active, form.ligthform input[type='reset']:active, form.ligthform input[type='button']:active, form.ligthform button:active, .button:active {
+    position:relative;
+    top:1px;
+}
+form.ligthform .row {
+    display: table;
+}
+form.ligthform .row > input, form.ligthform .row > label{
+    display: table-cell;
+    width: 100px;
+}
+form.ligthform .row > label{
+    padding-right: 5px;
+    text-align: right;
+}
+
+.flash-message{
+    padding: 8px; 
+    font-family: arial; 
+    /*font-weight: bold;*/  
+    font-size: 14px; 
+    margin-bottom: 10px;
+    /*notice*/
+    color: #514721; 
+    background-color: #fff6bf; 
+    border:2px solid #ffd324; 
+    /*info*/
+/*    color: #205791;
+    background-color: #D5EDF8;
+    border: 2px solid #92CAE4;*/
+    /*success*/
+/*    color: #264409; 
+    background-color: #e6efc2; 
+    border:2px solid #c6d880; */
+    /*error*/
+/*    color: #8a1f11;
+    background-color: #fbe3e4;
+    border: 2px solid #fbc2c4;*/
+}
+
+h2{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+#header .welcome{
+	float: right;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.login-div{
+	width: 470px; 
+	position: fixed; 
+	top: 50%; 
+	left: 50%; 
+	margin-top: -40px; 
+	margin-left: -235px; 
+	background-color: white; 
+	padding: 16px;
+	
+	-webkit-box-shadow: #999 0px 0px 6px 3px; /*color x y blur*/
+	-moz-box-shadow: #999 0px 0px 6px 3px;
+	box-shadow: #999 0px 0px 6px 3px;
+    
+    -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.login-div form{
+	margin-bottom: 0px;
+}
